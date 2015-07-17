@@ -1,6 +1,6 @@
 $( document ).ready(function() {
 
-	var headings = $('h2');
-	headings.last().text("I'm Jamie Brauckmuller, and I'm learning jQuery");
+	var paragraphs = $('p');
+	paragraphs.css({"color": "grey", "font-size": "125%", "padding-top": "100px" });
 
 });
